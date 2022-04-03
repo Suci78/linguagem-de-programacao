@@ -1,0 +1,60 @@
+header{
+	font-family:didot-serif;
+	font-size: 40pt;
+	color: darkblue;
+	text-align:center;
+	padding: 50px;
+}
+h1{
+	width: 600px;
+	margin: auto;
+}
+
+body{
+	background-color:#FAFAD2;
+}
+
+
+nav{
+color: #FFD700;
+}
+
+a:link{
+	color:#FF8000;
+}
+
+h2{
+	font-family: American Typewriter, serif;
+	font-size: 15pt;
+	color: darkblue;
+	width: 400px;
+	columns: 2;
+	margin: auto;
+	position: bottom;
+}
+h3{
+	font-family: American Typewriter, serif;
+	font-size: 15pt;
+	color: darkblue;
+	width: 400px;
+	columns: 2;
+	margin: auto;
+	position: bottom;
+}
+h4{
+	font-family: American Typewriter, serif;
+	font-size: 15pt;
+	color: darkblue;
+	width: 400px;
+	columns: 2;
+	margin: auto;
+	position: bottom;
+}
+.pequeno{
+	background-color: #FFD700;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: monospace;
+	font-size: 10pt;
+	padding: 3px;
+}
