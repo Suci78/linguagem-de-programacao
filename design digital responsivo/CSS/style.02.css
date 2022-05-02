@@ -152,17 +152,17 @@ h1{
 
 /*Aqui é section*/
 
-.coluna{
+article{
 	width: 23.40%;/*264px- objeto - 1128px contexto x 100, em % para ficar bem ajustado em 100%*/
 	float: left;
 	margin-right: 2.13%; /* tanto faz % ou em para margem, mas % é melhor para evitar desencontro de colunas, 24px objeto- 1128px contexto*/
 }
 
-.coluna:last-child{
+article:last-child{
 	margin-right: 0;
 }
 
-.coluna p{
+article p{
 	text-align: justify;
 	font-size: 1.6em;/*16px*/
 }
@@ -199,14 +199,14 @@ footer{
 		width: 65%;
 	}
 
-	.coluna{
+	article{
 		width: 48%;/* 2 colunas + margem */
 		margin-bottom: 2.4em;
 		margin-right: 2% ;
 	}
 
 	/* : - comportamento */
-	.coluna:nth-child(even){
+	article:nth-child(even){
 		margin-right: 0;
 	}
 
@@ -262,7 +262,7 @@ footer{
 }
 
 @media screen and (max-width: 520px)/* celular */{
-	.coluna{
+	article{
 		width: 100%;
 		margin-right: 0;
 	}
